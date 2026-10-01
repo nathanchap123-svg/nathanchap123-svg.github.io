@@ -93,6 +93,33 @@ h2 {
     text-decoration: none;
 }
 
+table {
+    width: 100%;
+    border: 1px solid #A67C52;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+caption {
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+th,
+td {
+    border: 1px solid #A67C52;
+    padding: 0.75em;
+    text-align: left;
+}
+
+th {
+    background-color: #D7C2AA;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #F3E9DC;
+}
+
 footer {
     background-color: #D7C2AA;
     text-align: center;
